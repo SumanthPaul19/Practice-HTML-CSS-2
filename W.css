@@ -1,0 +1,39 @@
+a:hover{
+    color: blue;
+    color:chartreuse;
+    background-color:gray;
+}
+
+#band{
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 25px;
+    color: teal;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playball', cursive;
+}
+#parent{
+    max-width: 1000px;
+    height: 500px;
+    margin: auto;
+    /* create flex container */
+    display: flex;
+    /* direction of children */
+    flex-direction: row;
+
+    /*wrap*/
+    flex-wrap: wrap;
+
+    /* horizontal adjustment */
+    justify-content: center;
+    justify-content: space-around;
+
+    /*vertical adjustment */
+    align-content: center;
+}
+
